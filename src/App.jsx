@@ -28,7 +28,7 @@ function App() {
   }, [theme]);
 
   return (
-    <Router>
+    <Router basename={import.meta.env.BASE_URL}>
       <LiveBackground theme={theme} />
       <Navbar theme={theme} toggleTheme={toggleTheme} />
       <Layout>
