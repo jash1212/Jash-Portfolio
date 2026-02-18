@@ -43,8 +43,7 @@ const ProjectCard = ({ project }) => {
                         }}
                     />
 
-                    {/* Vignette / Soft Edge Overlay */}
-                    <div className="absolute inset-0 pointer-events-none shadow-[inset_0_0_60px_20px_rgba(0,0,0,0.8)] rounded-2xl z-20" />
+
 
                     {/* Dark Overlay with Description (Hover only) */}
                     <div className="absolute inset-0 bg-black/80 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col items-center justify-center p-6 text-center">

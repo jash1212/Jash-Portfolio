@@ -3,7 +3,7 @@ import ProjectCard from '../components/ui/ProjectCard';
 import cubeview from '../assets/cubeview.png'
 import cricket from '../assets/cricket.png'
 import careerprep from '../assets/careerprep.png'
-import uw from '../assets/uw.jpg'
+import dog from '../assets/dog.jfif'
 
 const projects = [
     {
@@ -25,7 +25,7 @@ const projects = [
         title: "Api Gateway",
         description: "Currently working on it...",
         tags: ["Express", "Redis"],
-        image: uw,
+        image: dog,
         //github: "https://github.com/jash1212/api-gateway"
     },
     {
