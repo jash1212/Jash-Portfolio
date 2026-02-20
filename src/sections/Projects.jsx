@@ -3,7 +3,7 @@ import ProjectCard from '../components/ui/ProjectCard';
 import cubeview from '../assets/cubeview.png'
 import cricket from '../assets/cricket.png'
 import careerprep from '../assets/careerprep.png'
-import dog from '../assets/dog.jfif'
+import api from '../assets/api.png'
 
 const projects = [
     {
@@ -22,12 +22,12 @@ const projects = [
         github: "https://github.com/Anuradha-bhaskar/CareerPrep" // Add your GitHub URL here
     },
     {
-        title: "Api Gateway",
-        description: "Currently working on it...",
-        tags: ["Express", "Redis"],
-        image: dog,
-        //github: "https://github.com/jash1212/api-gateway"
-    },
+    title: "Abuse-Aware API Gateway",
+    description: "A Dockerized API Gateway that protects backend services using sliding window rate limiting, Redis-based abuse scoring, progressive IP blocking, JWT validation, and structured logging. Built to simulate real-world traffic protection and distributed state management.",
+    tags: ["Node.js", "Express", "Redis", "Docker"],
+    image: api,
+    github: "https://github.com/jash1212/api-gateway"
+},
     {
         title: "Cricket Analysis",
         description: "Cricket Analysis is a data-driven exploration of international cricket performance using real match datasets. The project includes SQL queries on structured cricket statistics, visual analysis, and insights generated from batting and bowling records. It demonstrates database construction, query formulation, and data interpretation using Python and SQL to extract meaningful patterns from cricket data.",
