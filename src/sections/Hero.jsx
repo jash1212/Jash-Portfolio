@@ -22,9 +22,9 @@ const Hero = () => {
                     animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
                     transition={{ duration: 1, ease: [0.22, 1, 0.36, 1] }}
                     className="text-5xl md:text-8xl lg:text-[10rem] font-bold tracking-tighter text-black leading-none"
-                    style={{ whiteSpace: 'nowrap' }}
+                    style={{ whiteSpace: 'nowrap', fontFamily: "'Tinos', serif" }}
                 >
-                    Jash Solanki
+                    Jash <br/>Solanki
                 </motion.h1>
                 <div className="mt-4 relative h-8 md:h-12 overflow-hidden w-full flex justify-center">
                     <AnimatePresence mode="wait">

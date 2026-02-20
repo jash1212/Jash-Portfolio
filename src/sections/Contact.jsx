@@ -17,7 +17,8 @@ const Contact = () => {
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
-                    className="text-white/60 text-xl md:text-2xl font-medium mb-8"
+                    className="text-white/60 text-xl md:text-2xl font-medium mb-8 "
+                    
                 >
                     Psst... exciting opportunities, anyone?
                 </motion.p>
@@ -28,6 +29,7 @@ const Contact = () => {
                     whileInView={{ opacity: 1, scale: 1 }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.8, ease: "backOut" }}
+                    style={{ fontFamily: "'Tinos', serif" }}
                     className="text-3xl md:text-6xl lg:text-7xl font-bold tracking-tighter max-w-5xl leading-[1.1] mb-12 px-4"
                 >
                     I'm open to new projects, part-time gigs, or a full-time adventure.

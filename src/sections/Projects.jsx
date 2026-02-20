@@ -22,12 +22,12 @@ const projects = [
         github: "https://github.com/Anuradha-bhaskar/CareerPrep" // Add your GitHub URL here
     },
     {
-    title: "Abuse-Aware API Gateway",
-    description: "A Dockerized API Gateway that protects backend services using sliding window rate limiting, Redis-based abuse scoring, progressive IP blocking, JWT validation, and structured logging. Built to simulate real-world traffic protection and distributed state management.",
-    tags: ["Node.js", "Express", "Redis", "Docker"],
-    image: api,
-    github: "https://github.com/jash1212/api-gateway"
-},
+        title: "Abuse-Aware API Gateway",
+        description: "A Dockerized API Gateway that protects backend services using sliding window rate limiting, Redis-based abuse scoring, progressive IP blocking, JWT validation, and structured logging. Built to simulate real-world traffic protection and distributed state management.",
+        tags: ["Node.js", "Express", "Redis", "Docker"],
+        image: api,
+        github: "https://github.com/jash1212/api-gateway"
+    },
     {
         title: "Cricket Analysis",
         description: "Cricket Analysis is a data-driven exploration of international cricket performance using real match datasets. The project includes SQL queries on structured cricket statistics, visual analysis, and insights generated from batting and bowling records. It demonstrates database construction, query formulation, and data interpretation using Python and SQL to extract meaningful patterns from cricket data.",
@@ -52,7 +52,7 @@ const Projects = () => {
 
             <Container className="relative z-10">
                 <div className="mb-20">
-                    <h2 className="text-5xl md:text-7xl font-bold tracking-tighter mb-6">
+                    <h2 className="text-5xl md:text-7xl font-bold tracking-tighter mb-6" style={{ fontFamily: "'Tinos', serif" }}>
                         Selected <span className="text-black/40">Works</span>
                     </h2>
                     <div className="h-[1px] w-full bg-black/10"></div>

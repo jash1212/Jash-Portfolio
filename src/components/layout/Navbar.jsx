@@ -52,8 +52,8 @@ const Navbar = () => {
         <nav className="fixed top-6 left-1/2 -translate-x-1/2 z-50">
             <div className="
                 flex items-center gap-1 px-3 py-2.5 
-                bg-white/30 
-                border border-white/50 shadow-xl shadow-black/5
+                bg-white/30
+                border border-white/50 shadow-xl shadow-black/10    
                 rounded-full ring-1 ring-white/60
             ">
                 {navItems.map((item) => (
