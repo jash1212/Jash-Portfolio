@@ -13,6 +13,7 @@
     "@react-three/fiber": "^9.5.0",
     "@studio-freight/lenis": "^1.0.42",
     "@tailwindcss/vite": "^4.1.18",
+    "@vercel/analytics": "^1.6.1",
     "autoprefixer": "^10.4.24",
     "clsx": "^2.1.1",
     "framer-motion": "^12.34.1",

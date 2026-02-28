@@ -17,7 +17,7 @@ const GridBackground = () => {
         resize();
 
         // Grid parameters
-        const spacing = 40; // Space between lines
+        const spacing = 30; // Space between lines
         let offset = 0; // Movement offset
 
         const drawGrid = () => {
